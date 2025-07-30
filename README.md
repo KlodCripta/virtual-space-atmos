@@ -130,7 +130,7 @@ EasyEffects is available on most major Linux distributions, but installation met
 
 ## ⬇️ IMPORT THE PROFILE
 
-1. Download the latest **`VIRTUAL_SPACE_ATMOS.json`** from the [Releases](../../releases) section.  
+1. Download the latest **`VIRTUAL_SPACE_ATMOS.json`**.  
 2. Open **EasyEffects**, go to **Profiles** and click **Import**.  
 3. Load **`VIRTUAL_SPACE_ATMOS.json`**.  
 4. Activate the preset and enjoy!
