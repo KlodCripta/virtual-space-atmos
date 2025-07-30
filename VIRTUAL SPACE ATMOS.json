@@ -768,18 +768,18 @@
             "limiter#0"
         ],
         "reverb#0": {
-            "amount": -9.0,
-            "bass-cut": 250.0,
+            "amount": -12.0,
+            "bass-cut": 400.0,
             "bypass": false,
-            "decay-time": 2.2,
-            "diffusion": 0.6,
+            "decay-time": 0.8,
+            "diffusion": 0.5,
             "dry": 0.0,
             "hf-damp": 6000.0,
             "input-gain": 0.0,
             "output-gain": 0.0,
             "predelay": 15.0,
             "room-size": "Large/smooth",
-            "treble-cut": 7000.0
+            "treble-cut": 4000.0
         },
         "stereo_tools#0": {
             "balance-in": 0.0,
@@ -787,7 +787,7 @@
             "bypass": false,
             "delay": 0.0,
             "input-gain": 0.0,
-            "middle-level": 0.0,
+            "middle-level": -3.0,
             "middle-panorama": 0.0,
             "mode": "LR > MS (Stereo to Mid-Side)",
             "mutel": false,
@@ -796,7 +796,7 @@
             "phasel": false,
             "phaser": false,
             "sc-level": 1.0,
-            "side-balance": 0.0,
+            "side-balance": 1.0,
             "side-level": 3.0,
             "softclip": false,
             "stereo-base": 0.5000000000000002,
