@@ -23,7 +23,7 @@
         "equalizer#0": {
             "balance": 0.0,
             "bypass": false,
-            "input-gain": 1.0,
+            "input-gain": 0.0,
             "left": {
                 "band0": {
                     "frequency": 22.4,
@@ -137,7 +137,7 @@
                 },
                 "band18": {
                     "frequency": 1091.26,
-                    "gain": -0.5,
+                    "gain": 0.14,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -148,7 +148,7 @@
                 },
                 "band19": {
                     "frequency": 1354.19,
-                    "gain": -0.0,
+                    "gain": 0.66,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -170,7 +170,7 @@
                 },
                 "band20": {
                     "frequency": 1680.47,
-                    "gain": -0.0,
+                    "gain": 1.03,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -181,7 +181,7 @@
                 },
                 "band21": {
                     "frequency": 2085.35,
-                    "gain": -0.0,
+                    "gain": -1.2,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -380,8 +380,8 @@
             },
             "mode": "IIR",
             "num-bands": 32,
-            "output-gain": 1.0,
-            "pitch-left": 0.0,
+            "output-gain": 0.0,
+            "pitch-left": -3.122502256758253e-17,
             "pitch-right": 0.0,
             "right": {
                 "band0": {
@@ -496,7 +496,7 @@
                 },
                 "band18": {
                     "frequency": 1091.26,
-                    "gain": -0.5,
+                    "gain": 0.14,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -507,7 +507,7 @@
                 },
                 "band19": {
                     "frequency": 1354.19,
-                    "gain": -0.0,
+                    "gain": 0.66,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -529,7 +529,7 @@
                 },
                 "band20": {
                     "frequency": 1680.47,
-                    "gain": -0.0,
+                    "gain": 1.03,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -540,7 +540,7 @@
                 },
                 "band21": {
                     "frequency": 2085.35,
-                    "gain": -0.0,
+                    "gain": -1.2,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.36,
@@ -749,15 +749,15 @@
             "dithering": "None",
             "external-sidechain": false,
             "gain-boost": true,
-            "input-gain": -12.0,
+            "input-gain": -8.1,
             "lookahead": 5.0,
             "mode": "Herm Thin",
-            "output-gain": 5.0,
+            "output-gain": 2.0,
             "oversampling": "None",
             "release": 20.0,
             "sidechain-preamp": 0.0,
             "stereo-link": 100.0,
-            "threshold": -0.3
+            "threshold": -0.3000000000000001
         },
         "plugins_order": [
             "equalizer#0",
@@ -768,28 +768,28 @@
             "limiter#0"
         ],
         "reverb#0": {
-            "amount": -15.0,
+            "amount": -17.0,
             "bass-cut": 400.0,
-            "bypass": false,
-            "decay-time": 0.8,
-            "diffusion": 0.4,
+            "bypass": true,
+            "decay-time": 0.4,
+            "diffusion": 0.5,
             "dry": 0.0,
             "hf-damp": 6000.0,
             "input-gain": 0.0,
             "output-gain": 0.0,
-            "predelay": 15.0,
+            "predelay": 13.0,
             "room-size": "Large/smooth",
-            "treble-cut": 4000.0
+            "treble-cut": 6000.0
         },
         "stereo_tools#0": {
             "balance-in": 0.0,
-            "balance-out": 0.0,
+            "balance-out": -7.979727989493313e-17,
             "bypass": false,
-            "delay": 0.0,
+            "delay": -3.469446951953614e-18,
             "input-gain": 0.0,
-            "middle-level": 2.0,
-            "middle-panorama": 0.0,
-            "mode": "LR > MS (Stereo to Mid-Side)",
+            "middle-level": 5.0,
+            "middle-panorama": -7.4593109467002705e-16,
+            "mode": "LR > LR (Stereo Default)",
             "mutel": false,
             "muter": false,
             "output-gain": 0.0,
@@ -797,10 +797,10 @@
             "phaser": false,
             "sc-level": 1.0,
             "side-balance": 1.0,
-            "side-level": 1.0,
+            "side-level": 3.0,
             "softclip": false,
-            "stereo-base": 0.5000000000000002,
-            "stereo-phase": 0.20000000000000004
+            "stereo-base": 1.0,
+            "stereo-phase": 0.2
         }
     }
 }
