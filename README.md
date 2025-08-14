@@ -163,3 +163,15 @@ See the file for details.
 
 Suggestions, improvements, and pull requests are welcome!  
 Open an issue or contribute directly via **GitHub Issues**.
+
+---
+
+## About Use
+
+- Klod Cripta – Founder of the Virtual Space Atmos project.
+He conceived and launched the project, establishing the foundation for the spatial sound design and adjusting the bass to achieve a powerful, deep, and dynamic low-end, capable of delivering a truly cinematic and immersive experience. He also ensured precise frequency balancing, keeping the bass from overpowering the mids and highs.
+
+- Davide Cappiello – Sound Engineer.
+A professional in the audio field, he optimized and fine-tuned the virtualization aspect, improving and refining the initial settings. His expertise maximized the overall sound quality, making Virtual Space Atmos stable, realistic, and suitable for a wide range of multimedia content.
+
+---
