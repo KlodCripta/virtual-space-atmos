@@ -761,26 +761,11 @@
         },
         "plugins_order": [
             "equalizer#0",
-            "reverb#0",
             "stereo_tools#0",
             "bass_enhancer#0",
             "bass_loudness#0",
             "limiter#0"
         ],
-        "reverb#0": {
-            "amount": -17.0,
-            "bass-cut": 400.0,
-            "bypass": true,
-            "decay-time": 0.4,
-            "diffusion": 0.5,
-            "dry": 0.0,
-            "hf-damp": 6000.0,
-            "input-gain": 0.0,
-            "output-gain": 0.0,
-            "predelay": 13.0,
-            "room-size": "Large/smooth",
-            "treble-cut": 6000.0
-        },
         "stereo_tools#0": {
             "balance-in": 0.0,
             "balance-out": -7.979727989493313e-17,
