@@ -19,17 +19,45 @@ We take **no responsibility** for any issues, malfunctions, or damages resulting
 
 ## 🎧 TESTED SETUP
 
-### Main test machine:
-- **PC:** ASUS Zenbook 14  
-- **CPU:** AMD Ryzen 5  
-- **Operating System:** Arch Linux KDE Plasma 6  
-- **Headphones:** Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model)  
+ASUS Zenbook 14
 
-### Secondary test machine:
-- **PC:** Microtech R5  
-- **CPU:** AMD Ryzen 5  
-- **Operating System:** Arch Linux KDE Plasma 6  
-- **Headphones:** Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model)  
+CPU: AMD Ryzen 5
+Operating System: Arch Linux - 
+KDE Plasma 6
+
+Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
+
+
+Microtech R5
+
+CPU: AMD Ryzen 5
+Operating System: Arch Linux -
+KDE Plasma 6
+Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
+
+
+Lenovo V15
+
+CPU: AMD Ryzen 3
+Operating System: EndeavourOS -
+KDE Plasma 6
+Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
+
+
+HP 250 G7
+
+CPU: Intel Core i5-1035G1
+Operating System: EndeavourOS -
+GNOME 48.4
+Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
+
+
+Lenovo V15-IGL
+
+CPU: Intel Celeron N4020
+Operating System: Ubuntu 24.04 LTS -
+GNOME 46
+Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model)
 
 ---
 
@@ -43,7 +71,7 @@ To make Virtual Space Atmos work properly, you need the following setup:
 
 ### 2️⃣ EasyEffects  
 - The main software used to load and manage the custom audio preset.  
-- Install it from your distro’s package manager (e.g., `pacman`, `apt`, `dnf`) or via Flatpak (⚠️ *not recommended if you want system-wide integration*).
+- Install it from your distro’s package manager (e.g., `pacman`, `apt`, `dnf`).
 
 ### 3️⃣ Plugins (optional but highly recommended)
 
@@ -72,17 +100,27 @@ If you're using multiple devices or audio interfaces (e.g., USB DACs), make sure
 
 ## 📥 INSTALLATION
 
-### Arch-based systems
+## Arch-based system
 
-EasyEffects and all required plugins can be installed from the official repositories (**not AUR**).  
+EasyEffects and all required plugins can be installed from the official repositories (not AUR).
 Run the following command:
 
-```bash
 sudo pacman -S easyeffects lsp-plugins calf zam-plugins mda.lv2 lv2 lilv
-```
 
-> EasyEffects comes from the **extra** repo, fully official.  
-> No need to enable AUR or install via Flatpak/Snap.
+Easyeffects comes from the extra repo, fully official.
+No need to enable AUR or install via Flatpak/Snap.
+
+## Ubuntu / Mint / Debian
+
+sudo apt update -y && sudo apt upgrade -y
+
+sudo apt install easyeffects
+
+sudo apt install calf-plugins x42-plugins
+
+## Fedora
+
+Available via dnf (not tested yet).
 
 ---
 
@@ -106,25 +144,6 @@ These are standalone plugin UIs. **You don’t need to launch them manually** to
 4. Save and exit  
 
 These entries will disappear from your app menu, but all plugins will still work properly inside EasyEffects.
-
----
-
-## Other Linux distributions
-
-EasyEffects is available on most major Linux distributions, but installation methods may vary:
-
-- **Ubuntu / Linux Mint / Debian**  
-  Use `apt` or install via **Flatpak** from Flathub.  
-  ⚠️ Flatpak versions are easier to install but harder to integrate system-wide.  
-  *Not recommended if you want deep control or multiple profiles.*
-
-- **Fedora**  
-  Available via `dnf`, or Flathub (Flatpak).
-
-- **Other distros**  
-  Check your package manager, or install via Flatpak as fallback.  
-
-> Plugin availability may differ. Some Flatpak versions don’t include all the needed plugins, or sandbox their functionality.
 
 ---
 
