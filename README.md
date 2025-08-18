@@ -19,7 +19,7 @@ We take **no responsibility** for any issues, malfunctions, or damages resulting
 
 ## 🎧 TESTED SETUP
 
-ASUS Zenbook 14
+## ASUS Zenbook 14
 
 CPU: AMD Ryzen 5
 Operating System: Arch Linux - 
@@ -28,7 +28,7 @@ KDE Plasma 6
 Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
 
 
-Microtech R5
+## Microtech R5
 
 CPU: AMD Ryzen 5
 Operating System: Arch Linux -
@@ -36,7 +36,7 @@ KDE Plasma 6
 Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
 
 
-Lenovo V15
+## Lenovo V15
 
 CPU: AMD Ryzen 3
 Operating System: EndeavourOS -
@@ -44,7 +44,7 @@ KDE Plasma 6
 Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
 
 
-HP 250 G7
+## HP 250 G7
 
 CPU: Intel Core i5-1035G1
 Operating System: EndeavourOS -
@@ -52,7 +52,7 @@ GNOME 48.4
 Headphones: Sony MDR-ZX110 (On-Ear, wired; affordable but well-balanced model) and Audio-Technica ATH-M20x (Over-Ear, wired; professional monitor headphones)
 
 
-Lenovo V15-IGL
+## Lenovo V15-IGL
 
 CPU: Intel Celeron N4020
 Operating System: Ubuntu 24.04 LTS -
